@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ScaleFrameLayout">
+        <attr name="heightScale" format="float" />
+    </declare-styleable>
+    <declare-styleable name="RatingBar">
+        <attr name="normalStar" format="reference" />
+        <attr name="highlightStar" format="reference" />
+        <attr name="numStars" format="integer"></attr>
+    </declare-styleable>
+
+</resources>

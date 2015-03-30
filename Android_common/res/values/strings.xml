@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="image_content">Image</string>
+    <string name="agg_justnow">刚刚</string>
+    <string name="agg_minutes_ago_fmt">%d分钟前</string>
+    <string name="agg_today_date_fmt">今天%H:%M</string>
+    <string name="agg_yesterday_date_fmt">昨天%H:%M</string>
+    <string name="common_ok">确认</string>
+    <string name="common_cancel">取消</string>
+
+    <string-array name="hg_weekdays">
+        <item>周一</item>
+        <item>周二</item>
+        <item>周三</item>
+        <item>周四</item>
+        <item>周五</item>
+        <item>周六</item>
+        <item>周日</item>
+    </string-array>
+
+</resources>

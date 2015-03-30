@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="56dip"
+             android:minWidth="56dip"
+             android:layout_height="48dp"
+             android:layout_gravity="center"
+             android:gravity="center"
+             android:focusable="true"
+             android:clickable="true"
+             android:paddingTop="4dip"
+             android:paddingBottom="4dip"
+             android:paddingStart="4dip"
+             android:background="@drawable/hg_sl_menuitem_bg"
+             android:paddingEnd="4dip">
+
+    <ImageView
+        android:layout_margin="4dip"
+        android:layout_gravity="center"
+        android:id="@+id/hg_menu_badge_icon"
+        android:layout_width="match_parent"
+        android:scaleType="fitCenter"
+        android:layout_height="match_parent"
+        />
+
+    <TextView
+        android:singleLine="true"
+        android:ellipsize="middle"
+        android:textSize="12sp"
+        android:layout_gravity="right|top"
+        android:id="@+id/hg_menu_badge_text"
+        android:layout_width="25dip"
+        android:layout_height="25dip"
+        android:textColor="@android:color/white"
+        android:gravity="center"/>
+</FrameLayout>
